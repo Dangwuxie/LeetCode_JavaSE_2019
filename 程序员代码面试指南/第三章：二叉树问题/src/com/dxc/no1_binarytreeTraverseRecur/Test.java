@@ -9,7 +9,7 @@ package com.dxc.no1_binarytreeTraverseRecur;
  */
 public class Test {
     public static void main(String[] args) {
-        Node node1 = new Node(1);
+        /*Node node1 = new Node(1);
         Node node2 = new Node(2);
         Node node3 = new Node(3);
         Node node4 = new Node(4);
@@ -25,7 +25,9 @@ public class Test {
         System.out.println("-----------------------");
         binaryTreeTraverseNoRecur.inOrder(node1);
         System.out.println("-----------------------");
-        /*binaryTreeTraverseNoRecur.posOrder1(node1);*/
-        binaryTreeTraverseNoRecur.posOrder2(node1);
+        *//*binaryTreeTraverseNoRecur.posOrder1(node1);*//*
+        binaryTreeTraverseNoRecur.posOrder2(node1);*/
+
+
     }
 }

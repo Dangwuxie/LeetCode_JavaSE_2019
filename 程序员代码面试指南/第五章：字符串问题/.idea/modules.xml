@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/判断两个字符串是否互为变形词/判断两个字符串是否互为变形词.iml" filepath="$PROJECT_DIR$/判断两个字符串是否互为变形词/判断两个字符串是否互为变形词.iml" />
+      <module fileurl="file://$PROJECT_DIR$/回文最少分割数/回文最少分割数.iml" filepath="$PROJECT_DIR$/回文最少分割数/回文最少分割数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/第五章：字符串问题.iml" filepath="$PROJECT_DIR$/第五章：字符串问题.iml" />
+    </modules>
+  </component>
+</project>
