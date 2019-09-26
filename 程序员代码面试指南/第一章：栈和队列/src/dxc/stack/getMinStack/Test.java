@@ -1,6 +1,4 @@
-package com.dxc.stack.getMinStack;
-
-import java.util.Stack;
+package dxc.stack.getMinStack;
 
 /**
  * @author 灵魂编程者

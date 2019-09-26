@@ -1,4 +1,4 @@
-package com.dxc.stack.getMinStack;
+package dxc.stack.getMinStack;
 
 import java.util.Stack;
 
