@@ -9,11 +9,14 @@ package dxc.no8_单调栈结构;
  */
 public class Test {
     public static void main(String[] args) {
-        int[] arr = {3,4,1,5,6,2,7};
-        int[][] res = MinIndex1.findMinIndex(arr);
+        int[] arr = {3,4,3,1,5,3,6,2,7};
+        int[] arr2 = {3,1,3,4,3,5,3,2,2};
+        int[][] res = MinIndex3.findMinIndex(arr2);
+        int r = 1;
         for (int[] o:res){
-            System.out.print(o[0]+" "+o[1]);
+            System.out.print(r+":"+o[0]+" "+o[1]);
             System.out.println();
+            r++;
         }
     }
 }

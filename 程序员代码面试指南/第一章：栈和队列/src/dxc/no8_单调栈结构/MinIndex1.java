@@ -50,7 +50,6 @@ public class MinIndex1 {
                 }
                 cur--;
             }
-
             //然后找右边的离的最近的min数，记下坐标
             cur = i+1;
             while (cur<arr.length){
@@ -60,12 +59,9 @@ public class MinIndex1 {
                 }
                 cur++;
             }
-
             res[i][0] = leftMinIndex;
             res[i][1] = rightMinIndex;
-
         }
-
         return res;
     }
 
