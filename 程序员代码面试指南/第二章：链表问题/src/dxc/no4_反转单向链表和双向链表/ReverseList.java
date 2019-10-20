@@ -1,6 +1,8 @@
+package dxc.no4_反转单向链表和双向链表;
+
 /**
  * @author Dangxuchao
- * @Title: ReverseList
+ * @Title: dxc.no4_反转单向链表和双向链表.ReverseList
  * @ProjectName 第二章：链表问题
  *
  * @Description: 反转单向链表

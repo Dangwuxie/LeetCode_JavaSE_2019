@@ -1,6 +1,8 @@
+package dxc.no5_反转部分单向链表;
+
 /**
  * @author Dangxuchao
- * @Title: ReversePartionList
+ * @Title: dxc.no5_反转部分单向链表.ReversePartionList
  * @ProjectName 第二章：链表问题
  * @Description: 反转部分单向链表
  * 题目：给定一个单向链表的头节点，以及两个整数from和to,

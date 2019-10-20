@@ -1,6 +1,16 @@
+package dxc.no1_打印两个有序链表的公共部分;
+
+/**
+ * @author 灵魂编程者
+ * @Title: PrintCommonPart1
+ * @Description: 天下风云出我辈，一入代码岁月催，
+ * --------------皇图霸业谈笑中，不胜编程一场醉。
+ * @date 2019/10/20 22:58
+ */
+
 /**
  * @author Dangxuchao
- * @Title: PrintCommonPart
+ * @Title: dxc.no1_打印两个有序链表的公共部分.PrintCommonPart
  * @ProjectName 第二章：链表问题
  * @Description: 题目：打印两个有序链表的公共部分，
  * 给定两个有序链表的头指针head1和head2,打印两个链表的公共部分，
@@ -21,7 +31,7 @@
  * 如果其中一个head移动到null了，那么整个过程就停止；
  * @date 2019/7/6 22:09
  */
-public class PrintCommonPart {
+public class PrintCommonPart1 {
 
     public static class Node{
         public Integer value;
@@ -52,7 +62,7 @@ public class PrintCommonPart {
         newNode.next = head2;
         head2 = newNode;
     }
-    public static void printCommonPart(Node head1,Node head2){
+    public static void printCommonPart(Node head1, Node head2){
         Node h1 = head1;
         Node h2 = head2;
         System.out.println("链表1为：");
@@ -99,9 +109,7 @@ public class PrintCommonPart {
         printCommonPart(head1,head2);
 
     }
-
 }
-
 /*
 链表1为：
 876321
@@ -110,14 +118,3 @@ public class PrintCommonPart {
 7 6 2
 
  */
-
-
-
-
-
-
-
-
-
-
-

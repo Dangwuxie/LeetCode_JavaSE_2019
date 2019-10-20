@@ -1,6 +1,16 @@
+package dxc.no2_在单链表和双链表中删除倒数第K个节点;
+
+/**
+ * @author 灵魂编程者
+ * @Title: RemoveLastKthNode
+ * @Description: 天下风云出我辈，一入代码岁月催，
+ * --------------皇图霸业谈笑中，不胜编程一场醉。
+ * @date 2019/10/20 23:03
+ */
+
 /**
  * @author Dangxuchao
- * @Title: RemoveLastKthNode
+ * @Title: dxc.no2_在单链表和双链表中删除倒数第K个节点.RemoveLastKthNode1
  * @ProjectName 第二章：链表问题
  * @Description: 删除单链表的倒数第K个节点，并且返回删除节点后的链表的头节点
  * 分析：可以分成三种情况：
@@ -77,4 +87,5 @@ public class RemoveLastKthNode {
         printList(removeLastKthNode(5));
 
     }
+
 }
