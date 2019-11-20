@@ -17,7 +17,7 @@ public class Test {
             {8,8,4,0}
         };
 
-        System.out.println(MatrixMinPathSum.matrixMinPathSum(m));
+        System.out.println(MatrixMinPathSum.matrixMinPathSum2(m));
 
     }
 }

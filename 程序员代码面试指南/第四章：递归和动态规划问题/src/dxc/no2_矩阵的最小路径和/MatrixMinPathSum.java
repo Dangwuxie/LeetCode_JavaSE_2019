@@ -25,6 +25,8 @@ public class MatrixMinPathSum {
     * 这样我们可以写出另外一个矩阵，就是它的最短路径和矩阵
     * 原矩阵中左、上，哪个点到当前点的路径和最小就写最小的那个值
     * 一路写下去，最后那个最右下角的值就是所要求的最短路径和；
+    *
+    * 时间复杂度O(m*n),空间复杂度O(m*n)
     * */
     public static int matrixMinPathSum(int[][] m){
         //首先对二维数组的判空
@@ -57,5 +59,43 @@ public class MatrixMinPathSum {
         return tmpMatrix[row-1][col-1];
     }
 
+    /*
+    * 方法2：此方法的时间复杂度不变，额外空间复杂度变成O(min{M,N}),
+    * 实现思路：利用滚动数组，不断更新的方式
+    * 比如使用大小为N的数组arr，从第一行开始一行一行的往下滚动
+    * arr[0]-arr[N-1]的值是依次累加的值
+    * 从第二行开始,
+    * arr[0]=m[0][0]+m[1][0],
+    * arr[1]=min{arr[0],arr[1]}+m[1][1]
+    * 然后依次类推；数组滚动直到最后一行
+    * */
+    public static int matrixMinPathSum2(int[][] m){
 
+        //首先对二维数组的判空
+        if (m == null || m.length == 0 || m[0] == null | m[0].length == 0){
+            return 0;
+        }
+
+        int max = Math.max(m.length,m[0].length);
+        int min = Math.min(m.length,m[0].length);
+        int[] arr = new int[min];
+        boolean bigrow = m.length == max;
+        arr[0] = m[0][0];
+
+        for (int i = 1;i < min; i++){
+            arr[i] = arr[i-1] + (bigrow ? m[0][i] : m[i][0]);
+        }
+
+        //下面开始滚动
+        for (int i = 1;i < max; i++){
+            arr[0] = arr[0] + (bigrow ? m[i][0] : m[0][i]);
+            for (int j = 1;j < min; j++){
+                arr[j] = Math.min(arr[j-1],arr[j])
+                        + (bigrow ? m[i][j] : m[j][i]);
+            }
+        }
+
+        //最后返回arr[min-1]
+        return arr[min-1];
+    }
 }
