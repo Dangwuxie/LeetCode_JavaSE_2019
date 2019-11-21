@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +41,9 @@
         <option value="$PROJECT_DIR$/src/dxc/no5_判断字符数组中是否所有元素都只出现过一次/IsUniquel.java" />
         <option value="$PROJECT_DIR$/src/dxc/no5_判断字符数组中是否所有元素都只出现过一次/IsUniquel2.java" />
         <option value="$PROJECT_DIR$/src/dxc/no5_判断字符数组中是否所有元素都只出现过一次/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no7_在有序但含空的数组中查找字符串/getLeftIndex.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no7_在有序但含空的数组中查找字符串/GetLeftIndex.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no7_在有序但含空的数组中查找字符串/Test.java" />
       </list>
     </option>
   </component>
@@ -64,8 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,6 +90,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="GetCStringindex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dxc.no4_GetCountString.GetCStringindex" />
       <module name="第五章：字符串问题" />
@@ -122,17 +125,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StringConvertInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no3_StringConvertInteger.StringConvertInteger" />
-      <module name="第五章：字符串问题" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dxc.no3_StringConvertInteger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dxc.no5_判断字符数组中是否所有元素都只出现过一次.Test" />
       <module name="第五章：字符串问题" />
@@ -140,6 +132,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dxc.no5_判断字符数组中是否所有元素都只出现过一次.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dxc.no7_在有序但含空的数组中查找字符串.Test" />
+      <module name="第五章：字符串问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dxc.no7_在有序但含空的数组中查找字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +222,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StringConvertInteger" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GetCStringindex" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.GetCStringindex" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.StringConvertInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -260,11 +263,12 @@
       <workItem from="1569254173357" duration="55000" />
       <workItem from="1569254467568" duration="2930000" />
       <workItem from="1574243839860" duration="6489000" />
+      <workItem from="1574301551147" duration="4336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43990000" />
+    <option name="totallyTimeSpent" value="48326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -279,13 +283,14 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28793103" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2862069" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2384802" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -297,7 +302,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,20 +316,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dxc/no4_GetCountString/GetCountString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/IntegerOfSum/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dxc/no4_GetCountString/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -666,6 +656,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no7_在有序但含空的数组中查找字符串/GetLeftIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no7_在有序但含空的数组中查找字符串/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
         </state>
       </provider>
     </entry>
