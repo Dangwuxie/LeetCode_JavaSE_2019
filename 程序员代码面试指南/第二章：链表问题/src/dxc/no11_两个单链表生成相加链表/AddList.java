@@ -1,6 +1,7 @@
 package dxc.no11_两个单链表生成相加链表;
 
 import dxc.Node;
+import dxc.ReverseList;
 
 import java.util.Stack;
 
@@ -66,6 +67,51 @@ public class AddList {
             newNode = new Node(1);
             newNode.next = pre;
         }
+
+        return newNode;
+    }
+
+    /*
+    * 方法2，反转两个单链表，然后从头节点开始相加，
+    * 同时需要考虑进位，最后重新恢复原来的两个单链表
+    * 返回相加之后的和形成的新的链表
+    *
+    * */
+    public static Node addList2(Node head1,Node head2){
+        head1 = ReverseList.reverseList(head1);
+        head2 = ReverseList.reverseList(head2);
+
+        Node c1 = head1;
+        Node c2 = head2;
+
+        int tempSum = 0;
+        int n1 = 0;
+        int n2 = 0;
+        int ca = 0;
+
+        Node pre = null;
+        Node newNode = null;
+
+        while (c1 != null || c2 != null){
+            n1 = c1 == null ? 0 : c1.value;
+            n2 = c2 == null ? 0 : c2.value;
+            tempSum = n1 + n2 + ca;
+            pre = newNode;
+            newNode = new Node(tempSum % 10);
+            newNode.next = pre;
+            ca = tempSum / 10;
+            c1 = c1 != null ? c1.next : null;
+            c2 = c2 != null ? c2.next : null;
+        }
+
+        if (ca == 1){
+            pre = newNode;
+            newNode = new Node(ca);
+            newNode.next = pre;
+        }
+        //复原
+        ReverseList.reverseList(head1);
+        ReverseList.reverseList(head2);
 
         return newNode;
     }
