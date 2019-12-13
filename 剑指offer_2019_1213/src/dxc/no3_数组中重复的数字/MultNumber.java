@@ -40,6 +40,9 @@ public class MultNumber {
                 }
                 //否则就交换
                 int temp = arr[i];
+                //注意这里的交换，需要用temp作为下标，
+                //否则在最后一步中arr[arr[i]]会改变，
+                //造成死循环
                 arr[i] = arr[temp];
                 arr[temp] = temp;
             }
