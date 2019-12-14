@@ -15,9 +15,9 @@ public class Test {
         int[] arr2 = new int[]{0,1,2,3,4,5,6,7,8,9};
         int[] arr3 = new int[2];
 
-        System.out.println(MultNumber.multNumber(arr1));
-        System.out.println(MultNumber.multNumber(arr2));
-        System.out.println(MultNumber.multNumber(arr3));
+        System.out.println(MultNumber.mulNumber3(arr1));
+        System.out.println(MultNumber.mulNumber3(arr2));
+        System.out.println(MultNumber.mulNumber3(arr3));
 
     }
 }
