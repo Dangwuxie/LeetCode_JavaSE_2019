@@ -1,9 +1,9 @@
 package dxc.no13_字符串的转换路径问题;
 
+
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
 
 /**
  * @author dxc
@@ -18,8 +18,36 @@ import java.util.Set;
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println(1111);
 
+        String[] strs = new String[]{"cab","acc","cbc","ccc","cac","cbb","aab","abb"};
+        String start = "abc";
+        String to = "cab";
+        List<List<String>> res = GetMinPath.getMinPath(start,to,strs);
+        for (List<String> stringPath : res){
+            for (String str : stringPath){
+                System.out.print(str+"-");
+            }
+            System.out.println();
+        }
+
+       /* List<String> list = new ArrayList<>();
+        for (int i = 0;i < strs.length; i++){
+            list.add(strs[i]);
+        }
+        list.add(start);
+
+        HashMap<String,ArrayList<String>> nexts = GetMinPath.getNexts(list);*/
+
+        /*for (int i = 0;i < list.size(); i++){
+            System.out.print(list.get(i)+":");
+            for (String nex : nexts.get(list.get(i))){
+                System.out.print(nex+"-");
+            }
+            System.out.println();
+        }*/
+
+       /* HashMap<String,Integer> distance = GetMinPath.getDistances(start,nexts);
+        System.out.println(distance);*/
 
     }
 }
