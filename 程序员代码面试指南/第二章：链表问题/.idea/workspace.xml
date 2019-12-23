@@ -11,29 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListPartition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,6 +46,20 @@
         <option value="$PROJECT_DIR$/src/dxc/no7_判断链表是否为回文结构/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/ReverseList.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no11_两个单链表生成相加链表/AddList.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no11_两个单链表生成相加链表/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no13_单链表的每k个节点之间的逆序/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no13_单链表的每k个节点之间的逆序/ReverseKNode.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no14_删除无序单链表中值重复出现的节点/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no14_删除无序单链表中值重复出现的节点/RemoveRep.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no15_在单链表中删除指定值的节点/RemoveValueNode.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no15_在单链表中删除指定值的节点/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no17_单链表的选择排序/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no17_单链表的选择排序/ListSelectionSort.java" />
       </list>
     </option>
   </component>
@@ -97,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -126,6 +117,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,6 +126,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,57 +146,57 @@
       <module name="第二章：链表问题" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no4_反转单向链表和双向链表.ReverseList" />
-      <module name="第二章：链表问题" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dxc.no4_反转单向链表和双向链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReversePartionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no5_反转部分单向链表.ReversePartionList" />
-      <module name="第二章：链表问题" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dxc.no5_反转部分单向链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no7_判断链表是否为回文结构.Test" />
+      <option name="MAIN_CLASS_NAME" value="dxc.no15_在单链表中删除指定值的节点.Test" />
       <module name="第二章：链表问题" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dxc.no7_判断链表是否为回文结构.*" />
+          <option name="PATTERN" value="dxc.no15_在单链表中删除指定值的节点.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no9_将单向链表按照某值划分左小中相等右边大的形式.Test" />
+      <option name="MAIN_CLASS_NAME" value="dxc.no17_单链表的选择排序.Test" />
       <module name="第二章：链表问题" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dxc.no9_将单向链表按照某值划分左小中相等右边大的形式.*" />
+          <option name="PATTERN" value="dxc.no17_单链表的选择排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dxc.no11_两个单链表生成相加链表.Test" />
+      <module name="第二章：链表问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dxc.no11_两个单链表生成相加链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dxc.no13_单链表的每k个节点之间的逆序.Test" />
+      <module name="第二章：链表问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dxc.no13_单链表的每k个节点之间的逆序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no3_删除链表的中间节点和ab处的节点.Test" />
+      <option name="MAIN_CLASS_NAME" value="dxc.no14_删除无序单链表中值重复出现的节点.Test" />
       <module name="第二章：链表问题" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dxc.no3_删除链表的中间节点和ab处的节点.*" />
+          <option name="PATTERN" value="dxc.no14_删除无序单链表中值重复出现的节点.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,8 +253,8 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseList" />
-      <item itemvalue="Application.ReversePartionList" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
@@ -271,8 +264,8 @@
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ReversePartionList" />
-        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -301,18 +294,25 @@
       <workItem from="1573832536515" duration="652000" />
       <workItem from="1573893768933" duration="7339000" />
       <workItem from="1573951484895" duration="7991000" />
+      <workItem from="1575641971454" duration="3753000" />
+      <workItem from="1575730864636" duration="2507000" />
+      <workItem from="1575733850830" duration="1347000" />
+      <workItem from="1575808904315" duration="7641000" />
+      <workItem from="1575981097834" duration="1241000" />
+      <workItem from="1576070497657" duration="3255000" />
+      <workItem from="1576681832669" duration="2550000" />
+      <workItem from="1576849697664" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47076000" />
+    <option name="totallyTimeSpent" value="69480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32850242" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -320,11 +320,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32874355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28869566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23282135" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.10347615" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -339,6 +339,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32850242" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,10 +350,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dxc/no7_判断链表是否为回文结构/IsHuiWenList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -506,27 +514,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/PrintLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        <state relative-caret-position="1606">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1123">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/PrintLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no11_两个单链表生成相加链表/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no11_两个单链表生成相加链表/AddList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no13_单链表的每k个节点之间的逆序/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no13_单链表的每k个节点之间的逆序/ReverseKNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no14_删除无序单链表中值重复出现的节点/RemoveRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no14_删除无序单链表中值重复出现的节点/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no15_在单链表中删除指定值的节点/RemoveValueNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no15_在单链表中删除指定值的节点/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java">
+    <entry file="file://$PROJECT_DIR$/src/dxc/no17_单链表的选择排序/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        <state relative-caret-position="369">
+          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no17_单链表的选择排序/ListSelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
         </state>
       </provider>
     </entry>
