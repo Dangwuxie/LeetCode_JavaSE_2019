@@ -4,12 +4,12 @@ import dxc.BinTreeNode;
 
 /**
  * @author dxc
- * @Title: RebulidBinaryTree
+ * @Title: RebuildBinaryTree
  * @Description: 天下风云出我辈，一入代码岁月催，
  * --------------皇图霸业谈笑中，不胜编程一场醉。
  * @date 2020/1/12 18:33
  */
-public class RebulidBinaryTree {
+public class RebuildBinaryTree {
 
     public static BinTreeNode rebuildBinaryTree(int[] preOrder,int[] inOrder){
         if (preOrder == null || inOrder == null
@@ -32,7 +32,7 @@ public class RebulidBinaryTree {
         //此时需要判断一下，当前的节点是不是最后一个节点
         if (preStart == preEnd){
             //如果此时先序遍历时的下标相同
-            if (preStart == preEnd && inStart == inEnd){
+            if (inStart == inEnd && preOrder[preStart] == inOrder[inStart]){
                 //此时说明两个数组的遍历顺序是相同的，也就是说是同一个二叉树
                 return headPre;//此时返回当前的节点就行了
             }else {
@@ -49,11 +49,12 @@ public class RebulidBinaryTree {
         //下面找中序遍历中根节点的位置，
         //然后就可以得出当前节点的左子树和右子树有哪些节点了
         int headIn = inStart;//从当前的左子树的第一个节点开始遍历
-        while(headIn <= inEnd && inOrder[headIn] != headPre.value){
+        while(headIn < inEnd && inOrder[headIn] != headPre.value){
             ++headIn;
         }
         //此时while循环从中出来的时候，headInder刚好就是中序遍历结果中头节点左边的位置；
         //此时如果本轮的遍历过程中遍历结束也没有与前面头节点的值相等的值，就抛出异常
+
         if (headIn == inEnd && inOrder[headIn] != headPre.value){
             //否则，说明两个数组的遍历的数字是不相同的，不是同一棵二叉树
             try {
