@@ -17,7 +17,7 @@ public class PrintBinaryTree {
 
         System.out.print(head.value+"-");
         printBinaryTree(head.left);
-        printBinaryTree(head.rigth);
+        printBinaryTree(head.right);
 
     }
 }

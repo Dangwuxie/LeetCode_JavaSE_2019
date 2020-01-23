@@ -10,7 +10,7 @@ package dxc;
 public class BinTreeNode {
 
     public BinTreeNode left;
-    public BinTreeNode rigth;
+    public BinTreeNode right;
 
     public Integer value;
 

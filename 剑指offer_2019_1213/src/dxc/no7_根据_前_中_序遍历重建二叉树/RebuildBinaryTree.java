@@ -81,7 +81,7 @@ public class RebuildBinaryTree {
         if (leftLength < preEnd - preStart){
             //说明前序遍历中，跟在head节点后面的除了左子树部分外
             //还存在右子树
-            headPre.rigth = rebuildCore(preOrder,inOrder,
+            headPre.right = rebuildCore(preOrder,inOrder,
                     preStart+leftLength+1,preEnd,
                     headIn+1,inEnd);
         }
