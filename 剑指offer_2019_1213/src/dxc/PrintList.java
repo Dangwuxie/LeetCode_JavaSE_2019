@@ -10,7 +10,9 @@ package dxc;
 public class PrintList {
 
     public static void printList(Node head){
-
+        if (head == null){
+            System.out.println("链表为空！！！");
+        }
         while (head != null){
             System.out.print(head.value+"-");
             head = head.next;

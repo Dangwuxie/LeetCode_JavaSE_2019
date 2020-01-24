@@ -14,13 +14,13 @@ public class Test {
 
     public static void main(String[] args) {
         Node n1 = new Node(1);
-        Node n2 = new Node(2);
-        Node n3 = new Node(3);
+        Node n2 = new Node(1);
+        Node n3 = new Node(4);
         Node n4 = new Node(4);
 
         Node n5 = new Node(5);
-        Node n6 = new Node(6);
-        Node n7 = new Node(7);
+        Node n6 = new Node(5);
+        Node n7 = new Node(8);
         Node n8 = new Node(8);
 
         n1.next = n2;
@@ -31,6 +31,8 @@ public class Test {
         n6.next = n7;
         n7.next = n8;
 
-        PrintList.printList(RemoveListNode.removeListNode(n1,n1));
+        /*PrintList.printList(RemoveListNode.removeListNode(n1,n1));*/
+
+        PrintList.printList(RemoveRepeatNodeList.removeRepeatNodeList(n1));
     }
 }
