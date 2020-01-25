@@ -32,8 +32,7 @@ public class RemoveRepeatNodeList {
 
             }else if (curNode.next == null){
                 preNode.next = curNode;
-            }
-            else {
+            }else {
                 //此时说明curNode与下一个节点重复
                 while (curNode.next != null && curNode.value == curNode.next.value){
                     curNode = curNode.next;
