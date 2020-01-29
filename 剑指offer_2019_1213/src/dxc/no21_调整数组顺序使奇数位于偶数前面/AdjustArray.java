@@ -9,9 +9,38 @@ package dxc.no21_调整数组顺序使奇数位于偶数前面;
  */
 public class AdjustArray {
 
-    public static void adjustArray(){
+    /*
+    * 第一种方法，两个指针分别从数组的最左边和最右边开始遍历
+    *
+    * */
+    public static void adjustArray(int[] array){
 
+        if (array == null || array.length == 0){
+            return;
+        }
 
+        int left = 0;
+        int right = array.length-1;
+
+        while(left < right){
+
+            while (left < right && (array[left]&1) == 1){
+                //碰到偶数，停止遍历
+                //如果是奇数，继续left++;
+                left++;
+            }
+
+            while (left < right && (array[right]&1) != 1){
+                //如果是偶数，与1发生为运算后是0
+                right--;
+            }
+
+            if (left < right){
+                int temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+            }
+        }
 
     }
 }

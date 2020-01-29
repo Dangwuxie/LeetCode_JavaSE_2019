@@ -1,5 +1,7 @@
 package dxc.no21_调整数组顺序使奇数位于偶数前面;
 
+import dxc.PrintArray;
+
 /**
  * @author dxc
  * @Title: Test
@@ -11,7 +13,13 @@ public class Test {
 
     public static void main(String[] args) {
 
+        int[] arr = new int[]{1,2,3,4,5};
 
+        AdjustArray.adjustArray(arr);
 
+        PrintArray.printArray(arr);
+        /*
+        * 1,5,3,4,2,
+        * */
     }
 }
