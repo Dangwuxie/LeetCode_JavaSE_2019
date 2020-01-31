@@ -27,7 +27,7 @@ public class Test {
         n4.next = n5;
         n5.next = n6;
 
-        PrintList.printList(ReverseList.reverseList(null));
+        PrintList.printList(ReverseList.reverseList2(n1));
     }
 }
 
