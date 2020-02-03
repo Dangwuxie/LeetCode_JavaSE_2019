@@ -9,15 +9,15 @@ package dxc;
  */
 public class PrintBinaryTree {
 
-    public static void printBinaryTree(BinTreeNode head){
+    public static void printPreBinaryTree(BinTreeNode head){
 
         if (head == null){
             return;
         }
 
         System.out.print(head.value+"-");
-        printBinaryTree(head.left);
-        printBinaryTree(head.right);
+        printPreBinaryTree(head.left);
+        printPreBinaryTree(head.right);
 
     }
 }

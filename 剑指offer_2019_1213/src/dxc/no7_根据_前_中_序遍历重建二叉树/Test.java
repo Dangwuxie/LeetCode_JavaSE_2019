@@ -16,6 +16,6 @@ public class Test {
         int[] preArr = new int[]{1,2,4,7,3,5,6,8};
         int[] inArr = new int[]{4,7,2,1,5,3,8,6};
 
-        PrintBinaryTree.printBinaryTree(RebuildBinaryTree.rebuildBinaryTree(preArr,inArr));
+        PrintBinaryTree.printPreBinaryTree(RebuildBinaryTree.rebuildBinaryTree(preArr,inArr));
     }
 }

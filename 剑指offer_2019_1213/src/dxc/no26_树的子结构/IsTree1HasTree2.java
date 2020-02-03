@@ -13,7 +13,11 @@ import dxc.BinTreeNode;
 * 题目要求，输入两棵二叉树A和B，判断B是不是A的子结构；
 * */
 public class IsTree1HasTree2 {
-
+    /*
+    * 实现思路：二叉树的遍历，递归实现；如果当前的两个节点相等，就调用另外一个函数判断；
+    * 否则就遍历n1的左右子树继续判断是否存在与N2树根相同的节点
+    * 如果存在，那么就调用isContain；
+    * */
     public static boolean isTree1HasTree2(BinTreeNode n1,BinTreeNode n2){
 
         boolean result = false;
