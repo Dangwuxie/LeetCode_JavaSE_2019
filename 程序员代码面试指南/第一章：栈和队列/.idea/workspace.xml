@@ -21,7 +21,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -30,20 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetPeaks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/GetPeaks.java">
+      <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dxc/stack/getMinStack/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetNum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dxc/no10_最大值减去最小值小于或者等于num的子数组数量/GetNum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="147">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -62,7 +53,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dxc/stack/getMinStack/MyStack.java" />
         <option value="$PROJECT_DIR$/src/com/dxc/stack/getMinStack/Test.java" />
-        <option value="$PROJECT_DIR$/src/dxc/stack/getMinStack/MyStack.java" />
         <option value="$PROJECT_DIR$/src/dxc/no2_两个栈实现队列/TwoStacksQueue.java" />
         <option value="$PROJECT_DIR$/src/dxc/no2_两个栈实现队列/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no3_仅用递归和栈结构逆序栈/Test.java" />
@@ -93,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/dxc/no10_最大值减去最小值小于或者等于num的子数组数量/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/GetPeaks.java" />
         <option value="$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/Test.java" />
+        <option value="$PROJECT_DIR$/src/dxc/stack/getMinStack/MyStack.java" />
       </list>
     </option>
   </component>
@@ -125,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -145,18 +137,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dxc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="第一章：栈和队列" type="b2602c69:ProjectViewProjectNode" />
-              <item name="第一章：栈和队列" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dxc" type="462c0819:PsiDirectoryNode" />
-              <item name="no11_可见的山峰数量" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,11 +321,14 @@
       <workItem from="1570282964791" duration="4428000" />
       <workItem from="1570340181377" duration="1276000" />
       <workItem from="1570429020912" duration="79000" />
+      <workItem from="1580733659752" duration="638000" />
+      <workItem from="1580734838475" duration="607000" />
+      <workItem from="1580782136668" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66203000" />
+    <option name="totallyTimeSpent" value="67464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -359,7 +346,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25464836" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/stack/getMinStack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -707,17 +687,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no10_最大值减去最小值小于或者等于num的子数组数量/GetNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dxc/no10_最大值减去最小值小于或者等于num的子数组数量/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_最大值减去最小值小于或者等于num的子数组数量/GetNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -728,10 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no11_可见的山峰数量/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/dxc/stack/getMinStack/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="147">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>

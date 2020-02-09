@@ -21,7 +21,6 @@ public class MergeOrderlyList {
     * next用来保存每次删除某个链表的节点之后的下一个节点；
     * 就相当于pre从cur1的head节点开始每次指向两个节点剩余节点中的最小值，
     * S型的一直往下指向；
-    *
     * */
     public static Node mergeOrderlyList(Node head1,Node head2){
 

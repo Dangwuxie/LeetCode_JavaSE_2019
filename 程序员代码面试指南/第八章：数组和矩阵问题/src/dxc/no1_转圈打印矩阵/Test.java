@@ -29,6 +29,11 @@ public class Test {
                 {5,5,5},
                 {6,6,6}
         };
-        SpiralOrderPrint.spiralOrderPrint(matrix2);
+        int[][] matrix4 = {
+                {1,1,1},
+                {2,2,2},
+                {3,3,3},
+        };
+        SpiralOrderPrint.spiralOrderPrint(matrix4);
     }
 }

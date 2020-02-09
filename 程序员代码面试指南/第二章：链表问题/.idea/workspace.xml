@@ -11,7 +11,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MergeOrderlyList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MergeOrderlyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyListWithRand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-465">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,7 +78,6 @@
         <option value="$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no9_将单向链表按照某值划分左小中相等右边大的形式/ListPartition.java" />
         <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java" />
-        <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java" />
         <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/dxc/no11_两个单链表生成相加链表/AddList.java" />
@@ -65,11 +95,12 @@
         <option value="$PROJECT_DIR$/src/dxc/no19_向有序的环形单链表中插入新节点/InsertCirList.java" />
         <option value="$PROJECT_DIR$/src/dxc/no19_向有序的环形单链表中插入新节点/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MregeOrderlyList.java" />
-        <option value="$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MergeOrderlyList.java" />
         <option value="$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no21_按照左右半区的方式重新组合单链表/Transfer.java" />
         <option value="$PROJECT_DIR$/src/dxc/no21_按照左右半区的方式重新组合单链表/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no21_按照左右半区的方式重新组合单链表/TransferMidList.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MergeOrderlyList.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java" />
       </list>
     </option>
   </component>
@@ -315,11 +346,13 @@
       <workItem from="1577199337713" duration="3237000" />
       <workItem from="1577267357442" duration="6446000" />
       <workItem from="1577342385819" duration="174000" />
+      <workItem from="1580548574624" duration="85000" />
+      <workItem from="1581140819461" duration="2181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79337000" />
+    <option name="totallyTimeSpent" value="81603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -337,7 +370,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32874355" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27728376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28698465" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -348,11 +381,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32850242" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,20 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -642,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MergeOrderlyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -667,6 +679,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no20_合并两个有序的单链表/MergeOrderlyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/RandNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no10_复制含有随机指针节点的链表/CopyListWithRand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

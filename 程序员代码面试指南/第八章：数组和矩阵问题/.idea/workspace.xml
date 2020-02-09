@@ -11,7 +11,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SpiralOrderPrint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/SpiralOrderPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,8 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/SpiralOrderPrint.java" />
-        <option value="$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no2_旋转正方形矩阵/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/dxc/no2_旋转正方形矩阵/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no3_之字打印矩阵/Test.java" />
@@ -62,6 +79,8 @@
         <option value="$PROJECT_DIR$/src/dxc/no15_奇数下标都是奇数或者偶数下标都是偶数/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no16_子数组的最大累加和/Test.java" />
         <option value="$PROJECT_DIR$/src/dxc/no16_子数组的最大累加和/MaxSum.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/SpiralOrderPrint.java" />
+        <option value="$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/Test.java" />
       </list>
     </option>
   </component>
@@ -96,7 +115,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,10 +133,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dxc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="第八章：数组和矩阵问题" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第八章：数组和矩阵问题" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dxc" type="462c0819:PsiDirectoryNode" />
+              <item name="no1_转圈打印矩阵" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dxc.no13_计算数组的小和.Test" />
       <module name="第八章：数组和矩阵问题" />
@@ -189,13 +215,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dxc.no9_不重复打印排序数组中相加和为给定值的所有二元组和三元组.Test" />
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dxc.no1_转圈打印矩阵.Test" />
       <module name="第八章：数组和矩阵问题" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dxc.no9_不重复打印排序数组中相加和为给定值的所有二元组和三元组.*" />
+          <option name="PATTERN" value="dxc.no1_转圈打印矩阵.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -290,14 +316,17 @@
       <workItem from="1578404691417" duration="1539000" />
       <workItem from="1578449843796" duration="2533000" />
       <workItem from="1578577126386" duration="2185000" />
+      <workItem from="1580724593395" duration="540000" />
+      <workItem from="1580732108528" duration="1531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51805000" />
+    <option name="totallyTimeSpent" value="53876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,11 +338,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2452174" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24390244" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2271625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -388,20 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/SpiralOrderPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -661,6 +676,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/SpiralOrderPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dxc/no1_转圈打印矩阵/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ import java.util.Stack;
 * 设计一个有getMin功能的栈，在实现栈基本功能的基础上，再实现返回栈中最小值的操作
 * pop、push、getmin操作的时间复杂度都是O(1)
 *思路：使用两个栈，一个保存正常存放的栈stackdata，一个保存当前栈中的最小元素stackmin
-* 就是说这个stackmin的栈顶元素一致都是当前stackdata的最小的元素
+* 就是说这个stackmin的栈顶元素一直都是当前stackdata的最小的元素
 * */
 public class MyStack {
     private Stack<Integer> stackdata ;
