@@ -13,7 +13,7 @@ public class Test {
     public static void main(String[] args) {
         int k = 4;
         int[] arr = {1,1,1,5,3,1,2,4,7,8,9};
-        int[] minKNums = FindMinKNums.findMinKnums(arr,k);
+        int[] minKNums = FindMinKNums.findMinKNums(arr,k);
         for (int mink:minKNums){
             System.out.print(mink+" ");
         }

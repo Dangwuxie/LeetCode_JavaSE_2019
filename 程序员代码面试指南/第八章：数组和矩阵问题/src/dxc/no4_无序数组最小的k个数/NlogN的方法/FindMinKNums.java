@@ -15,11 +15,10 @@ package dxc.no4_无序数组最小的k个数.NlogN的方法;
 * 始终维持堆的k个元素最大的元素在堆顶
 * 从第k+1个数开始，如果有比堆顶元素小的数字，就交换，然后调整堆
 * 遍历完数组之后，这个堆中的所有元素就是当前数组中最小的k个数字
-*
 * */
 public class FindMinKNums {
 
-    public static int[] findMinKnums(int[] arr,int k){
+    public static int[] findMinKNums(int[] arr,int k){
         if (arr.length<1||k>arr.length){
             return arr;
         }
