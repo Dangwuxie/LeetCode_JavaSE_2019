@@ -80,9 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,12 +100,22 @@
             </path>
             <path>
               <item name="第三章：二叉树问题" type="b2602c69:ProjectViewProjectNode" />
+              <item name="第三章：二叉树问题" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dxc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="第三章：二叉树问题" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,11 +289,12 @@
       <workItem from="1575381805396" duration="752000" />
       <workItem from="1575469542415" duration="3720000" />
       <workItem from="1575512180036" duration="16000" />
+      <workItem from="1582109694439" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62442000" />
+    <option name="totallyTimeSpent" value="62462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -304,7 +312,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25303152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25707355" />
       <window_info anchor="bottom" id="Profiler" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,11 +323,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32931036" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32931036" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
